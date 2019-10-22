@@ -20,3 +20,11 @@
     font-weight: 600;
     /* --- Esto lo he añadido yo para que se pareciera más a la imagen, pero no venia en el enunciado */
 }
+
+/* .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} */
