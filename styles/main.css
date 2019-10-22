@@ -48,7 +48,6 @@ a:active {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    border: tomato solid;
     width: 100%;
     position: fixed;
     background-color: white;
@@ -57,33 +56,34 @@ a:active {
 .logo {
     width: 155px;
     margin: 10px;
+
 }
 
 nav {
-    border: black solid 5px;
-    width: 100%;
+    /* width: 100%; */
 }
+
+/* nav deberia ser una clase ".nav" pero no me funcionaba ....  */
 
 .menu__options {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: blue solid;
     width: 100%;
 
 }
 
 .option {
     color: #4a4a4a;
+    font-size: 16px;
     box-sizing: border-box;
     padding: 10px;
     text-decoration: none;
-    font-weight: 500px;
-    border: green solid;
     padding: 0px;
     padding-bottom: 13px;
     padding-right: 20px;
+
 }
 
 /* MEDIA QUERIES */
@@ -92,8 +92,18 @@ nav {
         font-size: 40px;
     }
 
-    . menu {
+    .menu {
         flex-direction: row;
-        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .option {
+        padding-right: 20px;
     }
 }
