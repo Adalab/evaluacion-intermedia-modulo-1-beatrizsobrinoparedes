@@ -20,6 +20,7 @@ a:active {
     text-decoration: none;
 }
 
+/* MAIN */
 .main {
     width: 100%;
     height: 100vh;
@@ -38,6 +39,8 @@ a:active {
     font-weight: 600;
     /* --- Esto lo he añadido yo para que se pareciera más a la imagen, pero no venia en el enunciado */
 }
+
+/* MENU */
 
 .menu {
     display: flex;
@@ -83,4 +86,14 @@ nav {
     padding-right: 20px;
 }
 
-@media all and ()
+/* MEDIA QUERIES */
+@media all and (min-width:768px) {
+    .main__title {
+        font-size: 40px;
+    }
+
+    . menu {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
