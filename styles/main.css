@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #3CDBC0;
+}
+
+.main__title {
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    /* --- Esto lo he añadido yo para que se pareciera más a la imagen, pero no venia en el enunciado */
+}
